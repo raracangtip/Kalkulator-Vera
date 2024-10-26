@@ -1,0 +1,85 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Viga;
+}
+
+body {
+	
+	background: whitesmoke;
+	height: 637px;
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: rgba(0,0,0,0.4);
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px;
+}
+
+.main h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #607d8b;
+	color: white;
+	border-radius: 25px;
+	
+}
+
+.btn-green {
+	background:rgb(247, 89, 199);
+	color:#607d8b;
+}
+
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: #607d8b;
+	border-radius: 25px;
+	text-align: right;
+}
+
+/* Styling untuk tombol Kembali */
+.back-button {
+    display: inline-block;
+    width: auto;
+	min-width: 150px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #e938ae; /* Warna hijau, sesuaikan dengan tema Anda */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:hover {
+    background-color: #e938ae; /* Warna hijau yang lebih gelap saat hover */
+	transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.main {
+    text-align: center;
+}
